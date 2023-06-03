@@ -1,0 +1,66 @@
+.sidebar{
+    flex: 1;
+    border-right: 0.5px solid lightgray;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.top{
+    height:50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color:#6439ff;
+}
+.horizontalDivider{
+    height:0;
+    border: 0.5px solid lightgray;
+}
+.center{
+    padding-left: 10px;
+}
+.listItems{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listItems li{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+.listItems li:hover{
+    background-color: #ece8ff;
+
+}
+.icon{
+    font-size: 18px;
+    color: #6439ff;
+}
+.listItems li span{
+    font-size: 13;
+    font-weight: bold;
+    color: #888;
+    margin-left: 10px;
+}
+.bottom{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.colorOption1,.colorOption2{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
